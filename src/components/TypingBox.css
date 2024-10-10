@@ -1,0 +1,36 @@
+/* .typing-box {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    border: 1px solid#191b20;
+    max-width: 60%;
+} */
+
+.typing-box-container {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    max-width: 60%;
+    position: relative;
+}
+
+/* .typing-box.focused {
+    border: 1px solid blue;
+    outline: none;
+} */
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    /* background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)); */
+}
+
+.overlay p {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
