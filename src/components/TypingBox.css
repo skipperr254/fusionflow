@@ -34,3 +34,22 @@
     background-color: transparent;
     backdrop-filter: blur(10px);
 }
+
+.typing-text {
+    color: #939393;
+    /* color: brown; */
+}
+
+.text-input {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    color: white;
+    font-size: calc(10px + 2vmin);
+}
